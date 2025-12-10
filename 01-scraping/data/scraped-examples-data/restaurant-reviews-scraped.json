@@ -1,0 +1,544 @@
+{
+    "search_metadata": {
+      "id": "6912723be3e176e50df16afc",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/10fc5821f8d38155/6912723be3e176e50df16afc.json",
+      "created_at": "2025-11-10 23:16:11 UTC",
+      "processed_at": "2025-11-10 23:16:11 UTC",
+      "yelp_url": "https://www.yelp.com/search?find_desc=Restaurant&find_loc=NewZealand%2C+CHC%2C+NZ",
+      "raw_html_file": "https://serpapi.com/searches/10fc5821f8d38155/6912723be3e176e50df16afc.html",
+      "total_time_taken": 3.22
+    },
+    "search_parameters": {
+      "engine": "yelp",
+      "find_desc": "Restaurant",
+      "find_loc": "NewZealand, CHC, NZ"
+    },
+    "filters": {
+      "category": [
+        {
+          "text": "Salad",
+          "value": "salad"
+        },
+        {
+          "text": "Fast Food",
+          "value": "hotdogs"
+        },
+        {
+          "text": "Fish & Chips",
+          "value": "fishnchips"
+        },
+        {
+          "text": "Breakfast & Brunch",
+          "value": "breakfast_brunch"
+        },
+        {
+          "text": "Pubs",
+          "value": "pubs"
+        },
+        {
+          "text": "Brasseries",
+          "value": "brasseries"
+        },
+        {
+          "text": "Persian/Iranian",
+          "value": "persian"
+        },
+        {
+          "text": "Barbeque",
+          "value": "bbq"
+        },
+        {
+          "text": "Indian",
+          "value": "indpak"
+        },
+        {
+          "text": "Restaurants",
+          "value": "restaurants"
+        },
+        {
+          "text": "Asian Fusion",
+          "value": "asianfusion"
+        },
+        {
+          "text": "American",
+          "value": "tradamerican"
+        },
+        {
+          "text": "Tapas/Small Plates",
+          "value": "tapasmallplates"
+        },
+        {
+          "text": "Seafood",
+          "value": "seafood"
+        },
+        {
+          "text": "Nightlife",
+          "value": "nightlife"
+        },
+        {
+          "text": "Malaysian",
+          "value": "malaysian"
+        },
+        {
+          "text": "Vietnamese",
+          "value": "vietnamese"
+        },
+        {
+          "text": "Event Planning & Services",
+          "value": "eventservices"
+        },
+        {
+          "text": "Chicken Shop",
+          "value": "chickenshop"
+        },
+        {
+          "text": "Food",
+          "value": "food"
+        },
+        {
+          "text": "Afghan",
+          "value": "afghani"
+        },
+        {
+          "text": "Mediterranean",
+          "value": "mediterranean"
+        },
+        {
+          "text": "Food Stands",
+          "value": "foodstands"
+        },
+        {
+          "text": "Kebab",
+          "value": "kebab"
+        },
+        {
+          "text": "Desserts",
+          "value": "desserts"
+        },
+        {
+          "text": "Gastropubs",
+          "value": "gastropubs"
+        },
+        {
+          "text": "Tapas Bars",
+          "value": "tapas"
+        },
+        {
+          "text": "Sandwiches",
+          "value": "sandwiches"
+        },
+        {
+          "text": "Mexican",
+          "value": "mexican"
+        },
+        {
+          "text": "Cocktail Bars",
+          "value": "cocktailbars"
+        },
+        {
+          "text": "Chinese",
+          "value": "chinese"
+        },
+        {
+          "text": "Japanese",
+          "value": "japanese"
+        },
+        {
+          "text": "Cambodian",
+          "value": "cambodian"
+        },
+        {
+          "text": "Sushi Bars",
+          "value": "sushi"
+        },
+        {
+          "text": "Diners",
+          "value": "diners"
+        },
+        {
+          "text": "Beer Bar",
+          "value": "beerbar"
+        },
+        {
+          "text": "Noodles",
+          "value": "noodles"
+        },
+        {
+          "text": "Thai",
+          "value": "thai"
+        },
+        {
+          "text": "Steakhouses",
+          "value": "steak"
+        },
+        {
+          "text": "Delis",
+          "value": "delis"
+        },
+        {
+          "text": "Middle Eastern",
+          "value": "mideastern"
+        },
+        {
+          "text": "Pizza",
+          "value": "pizza"
+        },
+        {
+          "text": "Cafes",
+          "value": "cafes"
+        },
+        {
+          "text": "Portuguese",
+          "value": "portuguese"
+        },
+        {
+          "text": "Burgers",
+          "value": "burgers"
+        },
+        {
+          "text": "Greek",
+          "value": "greek"
+        },
+        {
+          "text": "Modern European",
+          "value": "modern_european"
+        },
+        {
+          "text": "Spanish",
+          "value": "spanish"
+        },
+        {
+          "text": "Italian",
+          "value": "italian"
+        },
+        {
+          "text": "Korean",
+          "value": "korean"
+        },
+        {
+          "text": "Wine Bars",
+          "value": "wine_bars"
+        },
+        {
+          "text": "Bars",
+          "value": "bars"
+        },
+        {
+          "text": "Hookah Bars",
+          "value": "hookah_bars"
+        },
+        {
+          "text": "Venues & Event Spaces",
+          "value": "venues"
+        }
+      ],
+      "price": [
+        {
+          "text": "$",
+          "value": "RestaurantsPriceRange2.1"
+        },
+        {
+          "text": "$$",
+          "value": "RestaurantsPriceRange2.2"
+        },
+        {
+          "text": "$$$",
+          "value": "RestaurantsPriceRange2.3"
+        },
+        {
+          "text": "$$$$",
+          "value": "RestaurantsPriceRange2.4"
+        }
+      ],
+      "distance": [
+        {
+          "text": "Biking (2 mi.)",
+          "value": "g:172.57204055786133,-43.53087808108379,172.62319564819336,-43.493530005482924"
+        },
+        {
+          "text": "Bird's-eye View",
+          "value": "g:172.4956512451172,-43.58685685639636,172.7002716064453,-43.437464557908584"
+        },
+        {
+          "text": "Within 4 blocks",
+          "value": "g:172.59448528289795,-43.51458782521851,172.60087966918945,-43.509919319371726"
+        },
+        {
+          "text": "Walking (1 mi.)",
+          "value": "g:172.5849151611328,-43.52160546613393,172.61049270629883,-43.50293144756954"
+        },
+        {
+          "text": "Driving (5 mi.)",
+          "value": "g:172.5464630126953,-43.5495434514585,172.64877319335938,-43.47484730064832"
+        }
+      ]
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "place_ids": [
+          "wEYj3B_EH6JS6DbfmZQudw",
+          "twenty-seven-steps-christchurch"
+        ],
+        "title": "Twenty Seven Steps",
+        "link": "https://www.yelp.com/biz/twenty-seven-steps-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=wEYj3B_EH6JS6DbfmZQudw&start=0",
+        "categories": [
+          {
+            "title": "Modern European",
+            "link": "https://www.yelp.com/search?find_desc=Modern+European&amp;find_loc=Christchurch"
+          }
+        ],
+        "price": "$$",
+        "rating": 4.8,
+        "reviews": 48,
+        "phone": "03 366 2727",
+        "snippet": "Twenty Seven Steps - what a spot! Intimate space in a lovely location with great service, expansive wine selection and they are happy to make you a…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/ArS2_ZEp71WYvE4VBK-YFQ/348s.jpg"
+      },
+      {
+        "position": 2,
+        "place_ids": [
+          "5ZOai8-HCajxJ4gnjqsAdw",
+          "ogb-christchurch"
+        ],
+        "title": "OGB",
+        "link": "https://www.yelp.com/biz/ogb-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=5ZOai8-HCajxJ4gnjqsAdw&start=0",
+        "categories": [
+          {
+            "title": "Bars",
+            "link": "https://www.yelp.com/search?find_desc=Bars&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "New Zealand",
+            "link": "https://www.yelp.com/search?find_desc=New+Zealand&amp;find_loc=Christchurch"
+          }
+        ],
+        "rating": 4.9,
+        "reviews": 9,
+        "phone": "03 377 4336",
+        "snippet": "Tonight my wife and I had a wonderful dining experience at O.G.B. Waiter was unbelievably friendly and helpful. We split a salad and she had swordfish…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/-UeiTz9mIMdQHarGfJPM0A/348s.jpg"
+      },
+      {
+        "position": 3,
+        "place_ids": [
+          "iL_451H-5M9tmaAsFqKZrw",
+          "orange-house-christchurch"
+        ],
+        "title": "Orange House",
+        "link": "https://www.yelp.com/biz/orange-house-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=iL_451H-5M9tmaAsFqKZrw&start=0",
+        "categories": [
+          {
+            "title": "Chinese",
+            "link": "https://www.yelp.com/search?find_desc=Chinese&amp;find_loc=Christchurch"
+          }
+        ],
+        "rating": 5,
+        "reviews": 2,
+        "phone": "03 341 5988",
+        "snippet": "The first Chinese meal in NZ. Taste quite good and the service is excellent. Price is fairly okay. There are plenty of choices of different fried…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/PqRcWAZPamImnma4I7JYUg/348s.jpg"
+      },
+      {
+        "position": 4,
+        "place_ids": [
+          "FisqIWxJhevSzft-Vt1LLg",
+          "the-camden-restaurant-and-bar-christchurch"
+        ],
+        "title": "The Camden Restaurant & Bar",
+        "link": "https://www.yelp.com/biz/the-camden-restaurant-and-bar-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=FisqIWxJhevSzft-Vt1LLg&start=0",
+        "categories": [
+          {
+            "title": "New Zealand",
+            "link": "https://www.yelp.com/search?find_desc=New+Zealand&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Bars",
+            "link": "https://www.yelp.com/search?find_desc=Bars&amp;find_loc=Christchurch"
+          }
+        ],
+        "rating": 5,
+        "reviews": 1,
+        "phone": "03 341 5567",
+        "snippet": "I'm glad we found this hidden gem. You walk up the stairs and this spacious and stylish restaurant awaits. We had the pork belly, seafood paella and…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/LzVg6BVpRXePmZTeT5scvw/348s.jpg"
+      },
+      {
+        "position": 5,
+        "place_ids": [
+          "Vzr1B2n54dN6w54sPCy27w",
+          "unknown-chapter-christchurch"
+        ],
+        "title": "Unknown Chapter",
+        "link": "https://www.yelp.com/biz/unknown-chapter-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=Vzr1B2n54dN6w54sPCy27w&start=0",
+        "categories": [
+          {
+            "title": "Coffee Roasteries",
+            "link": "https://www.yelp.com/search?find_desc=Coffee+Roasteries&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Breakfast & Brunch",
+            "link": "https://www.yelp.com/search?find_desc=Breakfast+%26+Brunch&amp;find_loc=Christchurch"
+          }
+        ],
+        "price": "$$",
+        "rating": 4.9,
+        "reviews": 13,
+        "phone": "027 201 5996",
+        "snippet": "My husband and I are here for vacation. Our hotel is just a few minutes walk from this place. Staff were friendly and service was great! When it gets…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/iCx9-fz6Gaa0bT8sU3SrcQ/348s.jpg"
+      },
+      {
+        "position": 6,
+        "place_ids": [
+          "I9vSaV6bo5Ip-Bzgrbs42g",
+          "fiddlesticks-christchurch"
+        ],
+        "title": "Fiddlesticks",
+        "link": "https://www.yelp.com/biz/fiddlesticks-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=I9vSaV6bo5Ip-Bzgrbs42g&start=0",
+        "categories": [
+          {
+            "title": "Bistros",
+            "link": "https://www.yelp.com/search?find_desc=Bistros&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Gastropubs",
+            "link": "https://www.yelp.com/search?find_desc=Gastropubs&amp;find_loc=Christchurch"
+          }
+        ],
+        "price": "$$$",
+        "rating": 4,
+        "reviews": 35,
+        "phone": "03 365 0533",
+        "snippet": "Super excited to see that this place is amazing. The staff is really fantastic and the food was exceptional. Will definitely try it again. We were…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/ccgKKmDdMFijmKx7cPfiyQ/348s.jpg"
+      },
+      {
+        "position": 7,
+        "place_ids": [
+          "qEK1gK9VXEG7H3b4EzDDiQ",
+          "king-of-snake-christchurch"
+        ],
+        "title": "King of Snake",
+        "link": "https://www.yelp.com/biz/king-of-snake-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=qEK1gK9VXEG7H3b4EzDDiQ&start=0",
+        "categories": [
+          {
+            "title": "Asian Fusion",
+            "link": "https://www.yelp.com/search?find_desc=Asian+Fusion&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Cocktail Bars",
+            "link": "https://www.yelp.com/search?find_desc=Cocktail+Bars&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Thai",
+            "link": "https://www.yelp.com/search?find_desc=Thai&amp;find_loc=Christchurch"
+          }
+        ],
+        "price": "$$$",
+        "rating": 4,
+        "reviews": 48,
+        "phone": "03 365 7363",
+        "snippet": "My Thanksgiving (from the States) was a meal from here and I had second and thirds just like Thanksgiving. stuffing my face with some Asian fusion…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/cqkyOw7cXzqGroSvpdj7uQ/348s.jpg"
+      },
+      {
+        "position": 8,
+        "place_ids": [
+          "YSvV17m2ITiGolqEg8Iq1w",
+          "francescas-italian-kitchen-christchurch"
+        ],
+        "title": "Francesca’s Italian Kitchen",
+        "link": "https://www.yelp.com/biz/francescas-italian-kitchen-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=YSvV17m2ITiGolqEg8Iq1w&start=0",
+        "categories": [
+          {
+            "title": "Pizza",
+            "link": "https://www.yelp.com/search?find_desc=Pizza&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Italian",
+            "link": "https://www.yelp.com/search?find_desc=Italian&amp;find_loc=Christchurch"
+          }
+        ],
+        "rating": 4.6,
+        "reviews": 20,
+        "phone": "03 374 9790",
+        "snippet": "We arrived at Francesca's Italian Kitchen without reservations, but the welcoming staff member said that we could eat at the window-facing counter,…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/iAPao8g-WE0sg70N33dQGA/348s.jpg"
+      },
+      {
+        "position": 9,
+        "place_ids": [
+          "Busy8uaGSr4xVTDK64KCcg",
+          "5th-street-christchurch"
+        ],
+        "title": "5th Street",
+        "link": "https://www.yelp.com/biz/5th-street-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=Busy8uaGSr4xVTDK64KCcg&start=0",
+        "categories": [
+          {
+            "title": "Wine Bars",
+            "link": "https://www.yelp.com/search?find_desc=Wine+Bars&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Tapas/Small Plates",
+            "link": "https://www.yelp.com/search?find_desc=Tapas%2FSmall+Plates&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Cocktail Bars",
+            "link": "https://www.yelp.com/search?find_desc=Cocktail+Bars&amp;find_loc=Christchurch"
+          }
+        ],
+        "rating": 5,
+        "reviews": 6,
+        "phone": "03 365 9667",
+        "snippet": "Very elegant and nice warm wooden interior, love all the plants and natural light! Service was also great, waiter explained the menu and was very…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/vUc6ncDTrstsUY1f5CTgCg/348s.jpg"
+      },
+      {
+        "position": 10,
+        "place_ids": [
+          "WgfACURjETOulUOI_h2N5w",
+          "midnight-shanghai-christchurch"
+        ],
+        "title": "Midnight Shanghai",
+        "link": "https://www.yelp.com/biz/midnight-shanghai-christchurch?osq=Restaurant",
+        "reviews_link": "https://serpapi.com/search.json?engine=yelp_reviews&num=49&place_id=WgfACURjETOulUOI_h2N5w&start=0",
+        "categories": [
+          {
+            "title": "Dim Sum",
+            "link": "https://www.yelp.com/search?find_desc=Dim+Sum&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Karaoke",
+            "link": "https://www.yelp.com/search?find_desc=Karaoke&amp;find_loc=Christchurch"
+          },
+          {
+            "title": "Tapas/Small Plates",
+            "link": "https://www.yelp.com/search?find_desc=Tapas%2FSmall+Plates&amp;find_loc=Christchurch"
+          }
+        ],
+        "rating": 5,
+        "reviews": 1,
+        "phone": "0204 017 3488",
+        "snippet": "Upon recommendation from our friends, we stopped into Midnight Shanghai for dinner. We were seated on the back patio -- a covered open-air patio with…",
+        "thumbnail": "https://s3-media0.fl.yelpcdn.com/bphoto/87rWrBZAXvih_TIS1iioFw/348s.jpg"
+      }
+    ],
+    "pagination": {
+      "next": "https://www.yelp.com/search?find_desc=Restaurant&find_loc=NewZealand%2C+CHC%2C+NZ&start=10"
+    },
+    "serpapi_pagination": {
+      "next_link": "https://serpapi.com/search.json?engine=yelp&find_desc=Restaurant&find_loc=NewZealand%2C+CHC%2C+NZ&start=10",
+      "next": "https://serpapi.com/search.json?engine=yelp&find_desc=Restaurant&find_loc=NewZealand%2C+CHC%2C+NZ&start=10"
+    }
+  }
