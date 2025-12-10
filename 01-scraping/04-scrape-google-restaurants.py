@@ -30,7 +30,7 @@ RESULTS_PER_PAGE = 20    # Per SerpAPI docs: max 20 for Google Maps search
 MAX_START = 100          # Recommended by SerpAPI (pages: 0,20,40,60,80,100)
 PAGE_SLEEP_S = 2.0
 
-OUT_DIR = "data/google-data"
+OUT_DIR = "data/google-data/google-restaurants-place/raw"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 OUTPUT_PARQUET = f"{OUT_DIR}/chc_google_places.parquet"
