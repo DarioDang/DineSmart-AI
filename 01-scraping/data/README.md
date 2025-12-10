@@ -73,10 +73,11 @@ data/
 
 | Stage            | Input Folder            | Output Folder                       |
 | ---------------- | ----------------------- | ----------------------------------- |
-| Scrape place_ids | —                       | `yelp-data/chc-yelps-reviews-data/` |
+| Scrape yelp place_ids | —                       | `yelp-data/chc-yelps-reviews-data/christchurch-place-ids.csv` |
+| Scrape google place_ids | —                       | `google-data/google-restaurants-place/` |
 | Scrape reviews   | Yelp/Google raw folders | Same folder (raw JSON + CSV)        |
 | Clean & merge    | Raw folders             | `final-dataset/` or `final/`        |
-| Enrich features  | Final datasets          | Qdrant-ready vectors or metadata    |
+| Enrich features  | Final datasets          | Ready for further processing and anlysis    |
 | Upload to S3     | Final datasets          | `dario-ai-agent-reviews` bucket     |
 
 
