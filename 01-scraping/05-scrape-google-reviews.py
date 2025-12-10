@@ -23,7 +23,7 @@ SERPAPI_ENDPOINT = "https://serpapi.com/search.json"
 
 INPUT_RESTAURANTS = "data/google-data/chc_google_places_v1.csv"
 
-OUT_DIR = "data/google-data/google-reviews"
+OUT_DIR = "data/google-data/google-reviews/raw"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 CHECKPOINT_PATH = f"{OUT_DIR}/checkpoint_reviews.csv"
