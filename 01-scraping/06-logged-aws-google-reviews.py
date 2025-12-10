@@ -6,8 +6,8 @@ import os
 bucket_name = "dario-ai-agent-reviews"
 folder = "google-reviews"
 files_to_upload = [
-    "chc_google_reviews.json",
-    "chc-google-reviews.parquet"
+    "data/google-reviews/final/chc-google-reviews.json",
+    "data/google-reviews/final/chc-google-reviews.parquet"
 ]
 
 # Initalize S3 client
