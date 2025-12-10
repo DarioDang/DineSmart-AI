@@ -40,41 +40,25 @@ Cloud-ready storage and versioning
 
 ## 🚀 Workflow Summary
 
-Scrape Restaurant Metadata
+| Stage                             | Description                                                         | Script / Directory                                                                                              |
+| --------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **1. Scrape Restaurant Metadata** | Collect basic restaurant info (name, address, place_id, etc.)       | 🍽 **Yelp:** `00-scrape-yelp-restaurants.py`<br>📍 **Google:** `04-scrape-google-restaurants.py`                |
+| **2. Scrape Reviews**             | Retrieve paginated reviews (recommended + not-recommended)          | ⭐ **Yelp:** `02-scrape-yelp-reviews.py` *(or resumable version)*<br>⭐ **Google:** `05-scrape-google-reviews.py` |
+| **3. Optional AWS Upload**        | Upload processed datasets to S3 for storage or downstream pipelines | ☁️ **Yelp:** `03-logged-yelp-aws.py`<br>☁️ **Google:** `06-logged-aws-google-reviews.py`                        |
+| **4. Enhance Features**           | Add cuisine tagging, embeddings, normalisation, enriched metadata   | 🧠 `scrape-enhance-features/`                                                                                   |
 
-Yelp → `00-scrape-yelp-restaurants.py`
-
-Google → `04-scrape-google-restaurants.py`
-
-Scrape Reviews
-
-Yelp reviews → `02-scrape-yelp-reviews.py` (or resumable version)
-
-Google reviews → `05-scrape-google-reviews.py`
-
-Optional AWS Upload
-
-Yelp → `03-logged-yelp-aws.py`
-
-Google → `06-logged-aws-google-reviews.py`
-
-Enhance Features
-
-Cuisine tagging, embeddings, normalisation → `scrape-enhance-features/`
 
 ## 🧩 Key Capabilities
 
-Resumable scraping with checkpoints
+| Capability                       | Description                                                                      |
+| -------------------------------- | -------------------------------------------------------------------------------- |
+| **Resumable Scraping**           | Checkpoint-based system prevents loss of progress                                |
+| **Per-Restaurant JSON Archival** | Stores raw, structured datasets for reproducibility                              |
+| **RAG-Ready Outputs**            | Flattened CSV + Parquet for efficient retrieval + indexing                       |
+| **Retry Logic**                  | Automatic exponential backoff during rate limits or 5xx errors                   |
+| **Strict Schema Consistency**    | Uniform fields for easy merging + downstream processing                          |
+| **Ecosystem Compatibility**      | Works seamlessly with **Streamlit**, **Phoenix**, **Qdrant**, and your RAG agent |
 
-Per-restaurant JSON archival
-
-Flattened, RAG-ready CSV/Parquet outputs
-
-Retry logic with exponential backoff
-
-Strict schema consistency
-
-Compatible with Streamlit, Phoenix, Qdrant
 
 ##  🛠 Requirements
 
