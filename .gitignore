@@ -1,6 +1,9 @@
 .DS_Store
 api-key.yaml
-01-scraping/data/yelp-data/chc-yelp-reviews-v1/
+01-scraping/data/yelp-data/chc-yelp-reviews-v1/*
+01-scraping/data/yelp-data/chc-yelp-reviews-v1/reviews-json-v1
 01-scraping/data/yelp-data/chc-yelp-reviews-data/processed_ids.json
 01-scraping/data/yelp-data/chc-yelp-reviews-data/reviews-data-json
 01-scraping/data/yelp-data/processed_ids.json
+01-scraping/data/google-data/chc_google_places_v1.csv
+01-scraping/data/google-data/chc_google_places.csv
