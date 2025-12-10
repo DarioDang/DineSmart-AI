@@ -21,9 +21,9 @@ from pathlib import Path
 # CONFIG
 API_KEY = os.getenv("SERPAPI_API_KEY")
 BASE_URL = "https://serpapi.com/search"
-INPUT_CSV = "data/Christchurch_place_ids_cleaned.csv"
+INPUT_CSV = "data/yelp-data/christchurch-place-ids.csv"
 OUTPUT_DIR = Path("reviews")                 # per-place JSON will be saved here
-OUTPUT_CSV = "christchurch_reviews_all_pages.csv"
+OUTPUT_CSV = "data/yelp-data/chc-reviews-data/christchurch-reviews-all-pages.csv"
 CHECKPOINT_FILE = Path("processed_ids.json")
 DELAY = 1.0              # polite pause between requests
 MAX_PER_PAGE = 49
