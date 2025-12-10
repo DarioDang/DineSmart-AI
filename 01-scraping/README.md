@@ -17,7 +17,7 @@ Cloud-ready storage and versioning
 
 ## 📁 Directory Structure
 
-`
+```
 01-scraping/
 │
 ├── scrape-enhance-features/       # Feature engineering layer for restaurants
@@ -36,7 +36,7 @@ Cloud-ready storage and versioning
 ├── 05-scrape-google-reviews.py    # Google reviews scraper
 ├── 06-logged-aws-google-reviews.py# Google reviews scraper + AWS logger
 └── README.md
-`
+```
 
 ## 🚀 Workflow Summary
 
